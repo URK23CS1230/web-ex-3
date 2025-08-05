@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Srihari | Tech Enthusiast Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" 
+    rel="stylesheet" 
+  />
+
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="nav-bar">
+      <div class="header-title">Srihari</div>
+      <ul class="nav-links">
+        <li><a href="#welcome">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <form class="search-box" role="search" aria-label="Site Search">
+        <input
+          type="search"
+          name="search"
+          placeholder="Search Portfolio"
+          aria-label="Search Portfolio"
+          autocomplete="off"
+        />
+        <button type="submit" aria-label="Search">&#128269;</button>
+      </form>
+    </nav>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="banner-overlay"></div>
+    <div class="banner-text">
+      <h1>Welcome to My Technology Portfolio</h1>
+    </div>
+  </section>
+
+  <!-- Welcome / About Section -->
+  <section id="welcome" class="welcome">
+    <h2>Hello!</h2>
+    <p>
+      I’m Srihari, a passionate and driven tech enthusiast with a deep interest in embedded systems, IoT, AI, and full-stack development.
+      I love solving real-world problems using innovative technology, blending software and hardware to create smart, user-friendly solutions.
+    </p>
+    <p>
+      I’ve worked on diverse projects ranging from IoT-based prosthetic hands and gesture recognition smart gloves to ESP32-CAM vision systems and React-based cybersecurity platforms.
+      Whether it’s coding intelligent applications or wiring up sensors for automation, I enjoy building things that make an impact.
+    </p>
+    <p>
+      I’m always learning and experimenting with new technologies like YOLOv8, Raspberry Pi, ESP32, ReactJS, and Python ML libraries.
+      My goal is to develop meaningful tech that helps people — especially in healthcare, security, and smart automation.
+    </p>
+  </section>
+
+  <!-- Project Gallery -->
+  <section id="projects" class="gallery">
+    <h2>Featured Projects</h2>
+    <div class="gallery-container">
+      <a href="#" class="gallery-item" style="background-image: url('cybersecurity.jpg')" aria-label="React Cybersecurity Platform project details">
+        <div class="caption">React Cybersecurity Platform</div>
+      </a>
+      <a href="#" class="gallery-item" style="background-image: url('iot-prosthetic.jpg')" aria-label="IoT Prosthetic Hand project details">
+        <div class="caption">IoT Prosthetic Hand</div>
+      </a>
+      
+      <a href="#" class="gallery-item" style="background-image: url('esp32cam.jpg')" aria-label="ESP32-CAM Vision System project details">
+        <div class="caption">ESP32-CAM Vision System</div>
+      </a>
+     
+    </div>
+  </section>
+
+  <!-- Skills / Content Sections -->
+  <section id="skills" class="content-section">
+    <div class="content-image left">
+      <img src="embedded-systems.jpg" alt="Embedded Systems and IoT" />
+    </div>
+   
+  </section>
+
+  <section class="content-section">
+    <div class="content-text left">
+      <h3>AI & Machine Learning</h3>
+      <p>
+        Developing intelligent applications using Python ML libraries and real-time computer vision with YOLOv8 to solve practical problems.
+      </p>
+    </div>
+    <div class="content-image right">
+      <img src="ai-ml.jpg" alt="AI and Machine Learning" />
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="content-image left">
+      <img src="fullstack.jpg" alt="Full Stack Development" />
+    </div>
+    <div class="content-text right">
+      <h3>Full-Stack Development</h3>
+      <p>
+        Building secure and scalable web applications using ReactJS and backend technologies, focusing on cybersecurity and user-friendly interfaces.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact">
+    <div class="footer-content">
+      <p>&copy; 2025 Srihari. All Rights Reserved</p>
+      <div class="social-icons" aria-label="Social media links">
+        <a href="#" aria-label="LinkedIn"><img src="linkedin.svg" alt="LinkedIn icon" /></a>
+        <a href="#" aria-label="GitHub"><img src="github.svg" alt="GitHub icon" /></a>
+        <a href="#" aria-label="Twitter"><img src="twitter.svg" alt="Twitter icon" /></a>
+        <a href="#" aria-label="Email"><img src="email.svg" alt="Email icon" /></a>
+      </div>
+      <p>Contact: <a href="mailto:srihari@email.com">srihari@email.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
